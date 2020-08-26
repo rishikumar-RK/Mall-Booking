@@ -37,8 +37,8 @@ public class MallConfig extends WebMvcConfigurerAdapter{
         DriverManagerDataSource dataSource = new DriverManagerDataSource();
         dataSource.setDriverClassName("com.mysql.jdbc.Driver");
         dataSource.setUrl("jdbc:mysql://localhost:3306/emall?autoReconnect=true&useSSL=false");
-        dataSource.setUsername("rishi");
-        dataSource.setPassword("rishi");
+        dataSource.setUsername("root");
+        dataSource.setPassword("root");
         return dataSource;
     }
     @Bean
